@@ -1,0 +1,76 @@
+1. Objetivo do Website
+
+    Qual é o propósito principal do site? O propósito principal é fornecer uma plataforma para os clientes comprarem livros online, explorando diferentes categorias, realizando buscas por autor, gênero ou título, e finalizando suas compras de forma segura.
+
+    Quem são os usuários-alvo? Os usuários-alvo são leitores, estudantes, profissionais e qualquer pessoa interessada em adquirir livros, seja de ficção, não-ficção, acadêmicos ou outros gêneros.
+
+2. Estrutura de Páginas
+
+    Quais páginas ou seções serão incluídas no site?
+        Página Inicial: Apresentação da livraria, promoções, bestsellers e lançamentos.
+        Catálogo de Livros: Listagem e filtros por categoria, autor, preço, etc.
+        Detalhes do Produto: Página com informações detalhadas sobre cada livro.
+        Carrinho de Compras: Onde o usuário pode revisar os itens antes da compra.
+        Checkout e Pagamento: Para o processo de pagamento e envio.
+        Sobre a Livraria: Informações institucionais.
+        Contatos e Atendimento: Formas de contato, chat ou suporte.
+       
+    Alguma página específica precisa de funcionalidades únicas? Sim, a página de Detalhes do Produto deve ter funcionalidades como:
+        Botão para adicionar ao carrinho.
+        Opção para comprar e-books ou livros físicos.
+
+3. Funcionalidades Principais
+
+    Quais funcionalidades o site deve ter?
+        Cadastro de Usuários: Permitir que os clientes criem contas e salvem informações de pagamento, histórico de compras e preferências.
+        Pesquisa e Filtros: Para facilitar a busca por livros por autor, título, gênero, etc.
+        Carrinho de Compras: Onde os usuários podem visualizar os produtos e editar suas seleções.
+        Pagamentos Online: Integração com gateways de pagamento como PayPal, Stripe ou MercadoPago.
+        Recomendações de Livros: Sistema de sugestões personalizadas baseado em compras anteriores ou preferências.
+
+    Alguma integração externa será necessária?
+        Integração com sistemas de pagamento (como PayPal, MercadoPago).
+        Integração com redes sociais para permitir que os usuários compartilhem seus livros favoritos.
+
+4. Design e Personalização
+
+    O design deve seguir algum padrão visual específico? O design deve ser atrativo, moderno e fácil de navegar. As cores e tipografia devem criar uma experiência agradável, sem distrações excessivas. A navegação deve ser clara e intuitiva.
+
+    Deseja manter o layout padrão do AdminLTE ou personalizá-lo? O AdminLTE é um template de painel administrativo, mas para uma página de livraria, seria mais interessante optar por um design mais voltado para o consumidor, com foco em experiência de compra e leitura. A personalização do layout seria ideal para essa finalidade.
+
+5. Tecnologias e Ferramentas
+
+    Qual será a stack tecnológica utilizada?
+        Front-end: HTML5, CSS3, JavaScript, frameworks como React ou Vue.js para uma interface dinâmica.
+        Back-end: Node.js, Python/Django ou PHP com MySQL ou PostgreSQL para gerenciamento de dados.
+        Sistema de pagamento: Integração com APIs de pagamento como PayPal, Stripe ou MercadoPago.
+    Você já tem alguma preferência por plugins ou bibliotecas adicionais?
+        Plugins de Avaliação de Produtos: para permitir que os clientes deixem feedback sobre os livros.
+        Biblioteca de Filtros: Como o Algolia, para realizar buscas rápidas e filtragens.
+
+6. Responsividade e Compatibilidade
+
+    O site precisa ser responsivo (funcionar bem em dispositivos móveis)? Sim, o site precisa ser responsivo, garantindo uma boa experiência tanto em dispositivos móveis quanto em desktops.
+
+    Quais navegadores devem ser suportados? O site deve ser compatível com os navegadores mais populares, como:
+        Google Chrome
+        Mozilla Firefox
+        Safari
+        Microsoft Edge Além disso, deve ser testado em dispositivos móveis para garantir a experiência de compra em qualquer lugar.
+
+7. Autenticação e Segurança
+
+    Como será implementada a autenticação? A autenticação pode ser feita por e-mail e senha. Também pode ser adicionada a opção de login via redes sociais (Google, Facebook).
+
+    Alguma medida de segurança específica deve ser considerada?
+        SSL: Para garantir a segurança das transações e dados do usuário.
+        Proteção contra ataques de injeção e XSS: Uso de boas práticas de segurança no back-end.
+        Armazenamento seguro de senhas: Utilizar criptografia forte para armazenar senhas dos usuários.
+
+8. Outros Requisitos
+
+    Há algum requisito adicional ou específico que não foi mencionado?
+        Sistema de Recompensas ou Descontos: Caso deseje incluir programas de fidelidade ou cupons de desconto, isso pode ser implementado como uma funcionalidade extra.
+        Sistema de Recomendações: Oferecer sugestões baseadas no histórico de compras ou preferências de leitura do usuário.
+
+

@@ -1,0 +1,161 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-white {
+    top: 0;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background: linear-gradient( #4d1e06, #643c23, #996b42, #cba075, #ffd9ab);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Satisfy', 'cursive';
+    text-align: center;
+    background-image: url('../imagens/estante.jpg');
+    margin-top: 10rem !important;
+}
+
+.layout-top-nav .wrapper .main-header .brand-image {
+    width: 75px;
+    height: 75px;
+    margin-top: 4px;
+    border-radius: 100%;
+}
+
+.font-weight-light {
+    width: 90%;
+    font-size: 50px; 
+    color: #f5f4f4;
+    text-shadow: 2px 2px rgb(6, 37, 43);
+    font-weight: 300 !important;
+    margin-right: 300px;
+    line-height: 28px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size:20px;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+/* Estilo para o container central */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px); /* Ajuste para o header */
+  background-color: #f4f6f900;
+}
+.auth-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ddb494;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 70px;
+}
+.auth-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+.auth-box .nav-tabs {
+  border-bottom: 1px solid #ddd;
+}
+.auth-box .nav-tabs .nav-link {
+  font-size: 1rem;
+  color: #555;
+  border: none;
+  border-radius: 0;
+}
+.auth-box .nav-tabs .nav-link.active {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}
+.auth-box form {
+  margin-top: 20px;
+}
+.auth-box form .form-group {
+  margin-bottom: 15px;
+}
+.auth-box form label {
+  font-weight: bold;
+  color: #333;
+}
+.auth-box form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.auth-box form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.auth-box form button:hover {
+  background-color: #0056b3;
+}
+.auth-box .text-center a {
+  color: #007bff;
+  text-decoration: none;
+}
+.auth-box .text-center a:hover {
+  text-decoration: underline;
+}
+  
+.card-footer {
+    text-align: center; 
+    padding: 15px; 
+}
+
+.card-footer .btn {
+    width: 100%; 
+    padding: 10px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+}
+
+.main-footer {
+    background: linear-gradient(#ffd9ab,#cba075,#996b42,#643c23,#4d1e06);
+}
+
+strong {
+    color: rgb(0, 0, 0);
+}
+
+.float-right {
+    color: rgb(0, 0, 0);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+        line-height: 30px; 
+        padding: 5px 10px; 
+    }
+
+    .font-weight-light{
+        font-size: 7vw;
+        margin: 2px;
+    }
+
+    .auth-box {
+        margin-bottom: 200px;
+        margin-top: 140px;
+      }
+}

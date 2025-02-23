@@ -1,0 +1,213 @@
+.navbar-white {
+  top: 0;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  background: linear-gradient(#4d1e06, #643c23, #996b42, #cba075, #ffd9ab);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Satisfy', 'cursive';
+  text-align: center;
+  background-image: url('../imagens/estante.jpg');
+  margin-top: 10rem !important;
+}
+
+.layout-top-nav .wrapper .main-header .brand-image {
+  width: 75px;
+  height: 75px;
+  margin-top: 4px;
+  border-radius: 100%;
+}
+
+.font-weight-light {
+  width: 90%;
+  font-size: 50px;
+  color: #f5f4f4;
+  text-shadow: 2px 2px rgb(6, 37, 43);
+  font-weight: 300 !important;
+  margin-right: 300px;
+  line-height: 28px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 4rem;
+  color: white;
+  text-shadow: 2px 2px rgb(6, 37, 43);
+}
+
+/* Estilo do Carrossel Horizontal */
+
+.bg-success {
+  background-color: #aa7a54 !important;
+}
+
+h3, h5, h6{
+  color: black;
+}
+
+.horizontal-carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-container {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+  padding: 10px 0;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.carousel-content {
+  display: inline-flex;
+  gap: 20px;
+}
+
+.card-widget {
+  flex: 0 0 auto;
+  width: 300px;
+  margin: 0 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.widget-user-header {
+  background-color: #dab894;
+  color: white;
+  padding: 15px;
+  border-radius: 10px 10px 0 0;
+}
+
+.widget-user .widget-user-header {
+  height: 210px;
+  padding: 0.5rem;
+}
+
+img.img-circle.elevation-2 {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.widget-user-image img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin: 0 auto;
+}
+
+.card-footer {
+  text-align: center;
+  padding: 15px;
+  background-color: transparent;
+  border-radius: 0 0 10px 10px;
+}
+
+.card-footer .btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.carousel-control-prev {
+  left: 10px;
+}
+
+.carousel-control-next {
+  right: 10px;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  font-size: 20px;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.main-footer {
+  background: linear-gradient(#ffd9ab, #cba075, #996b42, #643c23, #4d1e06);
+}
+
+strong {
+  color: rgb(0, 0, 0);
+}
+
+.float-right {
+  color: rgb(0, 0, 0);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .font-weight-light {
+      font-size: 24px;
+      margin-right: 10px;
+      line-height: 28px;
+  }
+
+  .carousel-container {
+      overflow-x: hidden;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+      font-size: 16px;
+      line-height: 30px;
+      padding: 5px 10px;
+  }
+
+  .font-weight-light {
+      font-size: 7vw;
+      margin: 2px;
+  }
+
+  .row.mt-4 {
+      margin-top: 30px;
+  }
+
+  .widget-user-header h3 {
+      font-size: 20px;
+  }
+
+  .widget-user-header h5 {
+      font-size: 14px;
+  }
+
+  a.btn.btn-success.btn-block {
+      margin-top: 10px;
+  }
+}
